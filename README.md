@@ -25,6 +25,8 @@ where ${USER} is a variable provided by UNIX-like operating systems that contain
 
 `` $ docker run -d -p 8005:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest --http-enabled``
 
+### Also check Dockage as a simple and powerful alternative of Portainer
+
 ## Optional (Not required) Change default docker_root folder 
 
 [tutorial web](https://www.baeldung.com/ops/docker-image-change-installation-directory)
