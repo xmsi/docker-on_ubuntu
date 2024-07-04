@@ -16,7 +16,7 @@ where ${USER} is a variable provided by UNIX-like operating systems that contain
 
 [official web-site](https://docs.docker.com/compose/install/standalone/)
 
-1. ``$ curl -SL https://github.com/docker/compose/releases/download/v2.27.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose``
+1. ``$ sudo curl -SL https://github.com/docker/compose/releases/download/v2.27.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose``
 2. ``$ sudo chmod +x /usr/local/bin/docker-compose``
 
 ## Optional (Not required) Portainer WEB UI For docker
